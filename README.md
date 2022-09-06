@@ -25,6 +25,19 @@ Zoo składa się z n stref. Zoo zamieszkuje m zwierząt. Zwierzęta mieszkają w
 
 - Java
 - Spring
-- Baza Db - Pamięciowa - np: h2 lub Java Collections
+- Java Collections
 - Clean Code, OOP.
 - Mile widziane testy.
+
+## Opis wykonania
+
+Zbudowanie systemu w technologii SpringBoot do rejestracji i wyświetlania stref w ZOO i zwierząt.
+Wykorzystanie odpowiednich struktur kolekcji dla przechowywania danych zbudowanych w pamięci bez korzystania z bazy danych.
+
+System posiada formatkę endpointów REST zapisaną w podkatalogu 'postman' w formacie JSON.
+Po załadowaniu ich do postmana, odpowiednie endpoint POST dodają strefę,dodają zwierzę i przypisują go do strefy.
+Endpointy GET pobieranją zwierzęta z danej strefy, pobierają zwierze o danym imieniu,
+a także pobrają raport o strefie ZOO potrzebującej najwięcej karmy,
+i pobrają raport, o strefie o najmniejszej ilości zwierząt.
+
+Poza tym w systemie znajdują się formatki stron JSP do wyświetlania stref, zwierząt i raportów w przeglądarce internetowej.
