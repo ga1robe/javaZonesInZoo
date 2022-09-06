@@ -31,11 +31,11 @@ Zoo składa się z n stref. Zoo zamieszkuje m zwierząt. Zwierzęta mieszkają w
 
 ## Opis wykonania
 
-Zbudowanie systemu w technologii SpringBoot do rejestracji i wyświetlania stref w ZOO, zwierząt, i raportów.
-Wykorzystanie odpowiednich struktur kolekcji dla przechowywania danych zbudowanych w pamięci bez korzystania z bazy danych.
+Zbudowano systemu w technologii SpringBoot do rejestracji i wyświetlania stref w ZOO, zwierząt, i raportów.
+Wykorzystano odpowiednich struktur kolekcji dla przechowywania danych stworzonych w pamięci bez korzystania z bazy danych.
 
 System posiada formatkę endpointów REST zapisaną w podkatalogu 'postman' w formacie JSON.
-Po załadowaniu ich do postmana, odpowiednie endpoint POST dodają strefę,dodają zwierzę i przypisują go do strefy.
+Po załadowaniu ich do postmana, odpowiednie endpoint POST dodają strefę, dodają zwierzę i przypisują go do strefy.
 Endpointy GET pobieranją zwierzęta z danej strefy, pobierają zwierze o danym imieniu,
 a także pobrają raport o strefie ZOO potrzebującej najwięcej karmy,
 i pobrają raport, o strefie o najmniejszej ilości zwierząt.
